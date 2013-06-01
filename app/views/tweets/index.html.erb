@@ -1,0 +1,17 @@
+<center><h1>Listing tweets</h1></center>
+
+<table>
+  <tr>
+    <th></th>
+    <th>Create Time</th>
+    <th>Content</th>
+  </tr>
+
+<% @tweets.each do |tweet| %>
+  <tr>
+    <td><%= link_to 'Show', tweet %></td>
+    <td><%= tweet.created_at %></td>
+    <td><%= tweet.content %></td>
+  </tr>
+<% end %>
+</table>
