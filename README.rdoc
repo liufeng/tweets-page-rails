@@ -4,10 +4,10 @@ A rails app that backups my tweets so they can be viewed in China.
 
 == Two scripts
 
-=== Import tweets from the official export .csv file. And put
-"tweets.csv" into /tmp dir.
+=== Import tweets
 
-You need to export your tweets on Twitter.com settings first.
+You need to export your tweets on Twitter.com settings first. Then put
+"tweets.csv" into /tmp dir.
 
   rails r script/import_tweets.rb
 
