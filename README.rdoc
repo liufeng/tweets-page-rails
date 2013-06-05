@@ -1,10 +1,11 @@
 = tweets-page-rails
 
-A rails app that backups my tweets so they can be viewed in China
+A rails app that backups my tweets so they can be viewed in China.
 
 == Two scripts
 
-=== Import tweets from the official export .csv file.
+=== Import tweets from the official export .csv file. And put
+=tweets.csv= into /tmp dir.
 
 You need to export your tweets on Twitter.com settings first.
 
