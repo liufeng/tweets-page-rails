@@ -1,19 +1,9 @@
-<center><h1>Listing tweets</h1></center>
+<center><h1>Feng Liu's Twitter Timeline</h1></center>
 
-<table>
-  <tr>
-    <th></th>
-    <th>Create Time</th>
-    <th>Content</th>
-  </tr>
-
+<ul>
 <% @tweets.each do |tweet| %>
-  <tr>
-    <td><%= link_to 'Show', tweet %></td>
-    <td><%= tweet.created_at %></td>
-    <td><%= tweet.text %></td>
-  </tr>
+  <li><%= tweet.text %> <a href="http://twitter.com/liufeng/status/<%= tweet.id %>"><%= time_ago_in_words(tweet.created_at) %></a></li>
 <% end %>
-</table>
+</ul>
 
 <center><%= paginate @tweets %></center>
