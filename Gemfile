@@ -6,7 +6,7 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-gem 'mysql2'
+# gem 'mysql2'                    # only use this on server
 
 # Gems used only for assets and not required
 # in production environments by default.
