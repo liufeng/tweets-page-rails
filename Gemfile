@@ -45,3 +45,6 @@ gem 'execjs'
 
 # V8 Engine
 gem 'therubyracer'
+
+# Paginate plugin
+gem 'kaminari'
