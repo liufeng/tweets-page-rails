@@ -10,9 +10,4 @@ class TweetsControllerTest < ActionController::TestCase
     assert_response :success
     assert_not_nil assigns(:tweets)
   end
-
-  test "should show tweet" do
-    get :show, id: @tweet
-    assert_response :success
-  end
 end
