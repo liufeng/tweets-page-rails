@@ -5,7 +5,3 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-
-Tweet.destroy_all
-# Tweet.create(content: "First tweet.")
-# Tweet.create(:content => "Second tweet.", :created_at => 1.minutes.ago)
