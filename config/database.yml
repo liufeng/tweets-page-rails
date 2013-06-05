@@ -19,8 +19,10 @@ test:
   timeout: 5000
 
 production:
-  adapter: pg
-  # database: db/production.sqlite3
-  database: tweets
+  adapter: mysql2
+  encoding: utf8
+  database: tweets_rails
   pool: 5
-  timeout: 5000
+  username: liufeng
+  password: nFengS0281
+  socket: /var/run/mysqld/mysqld.sock
